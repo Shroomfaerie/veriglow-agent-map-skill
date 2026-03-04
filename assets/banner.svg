@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ECFDF5"/>
+      <stop offset="50%" stop-color="#F0FDF4"/>
+      <stop offset="100%" stop-color="#F0F9FF"/>
+    </linearGradient>
+    <linearGradient id="bg-dark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="50%" stop-color="#052e16"/>
+      <stop offset="100%" stop-color="#0c1a2e"/>
+    </linearGradient>
+    <!-- Grid pattern for background -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#10B981" stroke-width="0.3" opacity="0.15"/>
+    </pattern>
+    <!-- Glow effects -->
+    <filter id="glow-green">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-blue">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="shadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="400" fill="url(#bg)"/>
+  <rect width="1200" height="400" fill="url(#grid)"/>
+
+  <!-- Decorative dots -->
+  <circle cx="100" cy="60" r="3" fill="#10B981" opacity="0.2"/>
+  <circle cx="160" cy="40" r="2" fill="#3B82F6" opacity="0.15"/>
+  <circle cx="1050" cy="350" r="4" fill="#10B981" opacity="0.15"/>
+  <circle cx="1100" cy="320" r="2" fill="#3B82F6" opacity="0.12"/>
+  <circle cx="200" cy="350" r="2.5" fill="#10B981" opacity="0.12"/>
+  <circle cx="980" cy="50" r="3" fill="#3B82F6" opacity="0.1"/>
+
+  <!-- Nine-grid Icon (centered-left) -->
+  <g transform="translate(340, 110)" filter="url(#shadow)">
+    <!-- Row 1 -->
+    <rect x="0"  y="0"  width="48" height="48" rx="10" fill="#CBD5E1"/>
+    <rect x="58" y="0"  width="48" height="48" rx="10" fill="#CBD5E1"/>
+    <rect x="116" y="0" width="48" height="48" rx="10" fill="#CBD5E1"/>
+    <!-- Row 2 -->
+    <rect x="0"  y="58" width="48" height="48" rx="10" fill="#CBD5E1"/>
+    <rect x="58" y="58" width="48" height="48" rx="10" fill="#34D399" filter="url(#glow-green)"/>
+    <rect x="116" y="58" width="48" height="48" rx="10" fill="#CBD5E1"/>
+    <!-- Row 3 -->
+    <rect x="0"  y="116" width="48" height="48" rx="10" fill="#CBD5E1"/>
+    <rect x="58" y="116" width="48" height="48" rx="10" fill="#CBD5E1"/>
+    <rect x="116" y="116" width="48" height="48" rx="10" fill="#4A90E2" filter="url(#glow-blue)"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="530" y="175" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="900" font-size="52" letter-spacing="4">
+    <tspan fill="#94A3B8">VERI</tspan><tspan fill="#34D399">GLOW</tspan>
+  </text>
+
+  <!-- Subtitle -->
+  <text x="530" y="220" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="500" font-size="26" fill="#6B7280" letter-spacing="1">
+    Agent Map Skill
+  </text>
+
+  <!-- Tagline -->
+  <text x="530" y="268" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="400" font-size="16" fill="#9CA3AF" letter-spacing="0.5">
+    Discover hidden APIs, data functions, and automation recipes for any website.
+  </text>
+
+  <!-- Platform badges -->
+  <g transform="translate(530, 290)">
+    <!-- Claude Code badge -->
+    <rect x="0" y="0" width="130" height="30" rx="6" fill="#10B981" opacity="0.1"/>
+    <rect x="0" y="0" width="130" height="30" rx="6" fill="none" stroke="#10B981" stroke-width="1" opacity="0.3"/>
+    <text x="65" y="20" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="12" fill="#10B981" text-anchor="middle" letter-spacing="0.5">Claude Code</text>
+    <!-- ClawHub badge -->
+    <rect x="142" y="0" width="100" height="30" rx="6" fill="#3B82F6" opacity="0.1"/>
+    <rect x="142" y="0" width="100" height="30" rx="6" fill="none" stroke="#3B82F6" stroke-width="1" opacity="0.3"/>
+    <text x="192" y="20" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="12" fill="#3B82F6" text-anchor="middle" letter-spacing="0.5">ClawHub</text>
+    <!-- Cursor badge -->
+    <rect x="254" y="0" width="90" height="30" rx="6" fill="#6B7280" opacity="0.1"/>
+    <rect x="254" y="0" width="90" height="30" rx="6" fill="none" stroke="#6B7280" stroke-width="1" opacity="0.3"/>
+    <text x="299" y="20" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="12" fill="#6B7280" text-anchor="middle" letter-spacing="0.5">Cursor</text>
+    <!-- OpenClaw badge -->
+    <rect x="356" y="0" width="110" height="30" rx="6" fill="#6B7280" opacity="0.1"/>
+    <rect x="356" y="0" width="110" height="30" rx="6" fill="none" stroke="#6B7280" stroke-width="1" opacity="0.3"/>
+    <text x="411" y="20" font-family="'Helvetica Neue', Arial, sans-serif" font-weight="600" font-size="12" fill="#6B7280" text-anchor="middle" letter-spacing="0.5">OpenClaw</text>
+  </g>
+
+  <!-- Bottom accent line -->
+  <rect x="0" y="396" width="1200" height="4" fill="#10B981" opacity="0.6"/>
+</svg>
