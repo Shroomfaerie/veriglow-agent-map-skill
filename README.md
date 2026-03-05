@@ -126,15 +126,19 @@ For when the API is blocked (e.g., overseas IP).
 
 ---
 
-## Available Maps
+## Available Maps — 59 Data Sources
 
-| Source | Type | Auth | Data |
-|:-------|:-----|:-----|:-----|
-| [SSE Bond Trading (Daily)](https://veri-glow.com/www.sse.com.cn/market/bonddata/overview/day/) | POST API | None | 17 bond categories, 4 trading metrics |
+| Category | Count | Example |
+|:---------|------:|:--------|
+| **SSE Stock Data** (股票数据) | 18 | IPO, dividends, market cap, P/E ratio, trading activity |
+| **SSE Index Data** (指数) | 3 | Index quotation, composition, basic info |
+| **SSE Fund Data** (基金数据) | 7 | ETF, LOF, REITs scale, daily/weekly/monthly overview |
+| **SSE Bond Data** (债券数据) | 10 | Bond trading, yield, convertible bonds, active varieties |
+| **SSE Other Data** (其他数据) | 17 | Margin trading, securities lending, member qualifications |
+| **International APIs** | 4 | CoinPaprika (crypto), Open-Meteo (weather), Hacker News |
 
 <p align="center">
-  <i>More maps are being added continuously.</i><br>
-  <a href="https://veri-glow.com">Browse all maps at <b>veri-glow.com</b></a>
+  <a href="https://veri-glow.com"><b>Browse all 59 maps at veri-glow.com →</b></a>
 </p>
 
 ---
