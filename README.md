@@ -74,8 +74,10 @@ The skill activates automatically when your agent needs website data. You can al
 
 | Prompt | What happens |
 |:-------|:-------------|
+| "Get the current Bitcoin price" | Looks up CoinPaprika Agent Map, calls GET /v1/tickers/btc-bitcoin |
+| "What's the weather forecast for Beijing?" | Looks up Open-Meteo Agent Map, calls forecast API with lat/long |
+| "Get the top 10 Hacker News stories" | Looks up HN Agent Map, fetches topstories.json → item details |
 | "Get bond trading data from the Shanghai Stock Exchange" | Looks up SSE Agent Map, calls the internal API |
-| "How can I scrape data from www.sse.com.cn?" | Returns API docs + browser automation recipe |
 | "Find the API behind this web page: https://..." | Queries `veri-glow.com/{url}` for the map |
 
 ---
